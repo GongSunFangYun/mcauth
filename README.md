@@ -28,13 +28,13 @@ Handles the entire chain: Microsoft → Xbox Live → XSTS → Minecraft Service
 ## Installation
 
 ```bash
-pip install mcauth
+pip install mcauth3
 ```
 
 ## Quick Start
 
 ```python
-from mcauth import MCMSA
+from mcauth3 import MCMSA
 
 # Initialize the authenticator
 auth = MCMSA()
@@ -60,7 +60,7 @@ The main class that handles Minecraft Microsoft authentication.
 
 #### Constructor
 ```python
-from mcauth import MCMSA
+from mcauth3 import MCMSA
 
 # Create an authenticator instance
 authenticator = MCMSA()
@@ -144,7 +144,7 @@ result = authenticator.finish_auth(device_data)
 ## Complete Usage Example
 
 ```python
-from mcauth import MCMSA
+from mcauth3 import MCMSA
 import json
 
 # 1. Initialize the authenticator
@@ -188,7 +188,7 @@ except Exception as e:
 
 ### Basic Script with Error Handling
 ```python
-from mcauth import MCMSA
+from mcauth3 import MCMSA
 import time
 
 auth = MCMSA()
@@ -221,7 +221,7 @@ except Exception as e:
 ### Web Application Integration (Flask Example)
 ```python
 from flask import Flask, jsonify, request
-from mcauth import MCMSA
+from mcauth3 import MCMSA
 import time
 
 app = Flask(__name__)
@@ -272,7 +272,7 @@ The library may raise the following exceptions:
 
 Example error handling:
 ```python
-from mcauth import MCMSA
+from mcauth3 import MCMSA
 import requests
 
 try:
