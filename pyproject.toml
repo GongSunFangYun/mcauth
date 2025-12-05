@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mcmsa"
+name = "mcauth"
 version = "1.0.3"
 authors = [
     {name = "GongSunFangYun", email = "721506497@qq.com"},
