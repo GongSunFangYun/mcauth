@@ -8,7 +8,7 @@ version = "1.0.3"
 authors = [
     {name = "GongSunFangYun", email = "721506497@qq.com"},
 ]
-description = "A Minecraft authentication library for Microsoft OAuth 2.0n"
+description = "A Minecraft authentication library for Microsoft OAuth 2.0"
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"

@@ -1,5 +1,12 @@
 # mcauth3 - Minecraft Microsoft Authentication
 
+[![GitHub release](https://img.shields.io/github/v/release/GongSunFangYun/mcauth3?style=flat-square)]()
+[![Downloads](https://img.shields.io/github/downloads/GongSunFangYun/mcauth3/total?style=flat-square)]()
+[![Stars](https://img.shields.io/github/stars/GongSunFangYun/mcauth3?style=flat-square)]()
+[![Forks](https://img.shields.io/github/forks/GongSunFangYun/mcauth3?style=flat-square)]()
+[![Issues](https://img.shields.io/github/issues/GongSunFangYun/mcauth3?style=flat-square)]()
+[![License](https://img.shields.io/github/license/GongSunFangYun/mcauth3?style=flat-square)]()
+
 A minimalist Python library for Minecraft Microsoft account authentication that provides a clean, focused API for developers.
 
 ## Features
